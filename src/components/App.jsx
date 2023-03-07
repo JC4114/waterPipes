@@ -40,6 +40,12 @@ export const App = () => {
     setWaterCount((prevCount) => water(pipes));
   }, [pipes]);
 
+  useEffect(() => {
+    const count = water(pipes);
+    console.log("Water count:", count);
+    setWaterCount(count);
+  }, [pipes]);
+
   const handleInputChange = (event) => {
   const value = event.target.value;
   const values = value.split(',').map(v => v.trim()); // убираем пробелы вокруг значений
