@@ -1,4 +1,5 @@
 {
+  "deploy": "npm run build&&gh-pages -d build",
   "name": "waterPipes",
   "version": "0.1.0",
   "private": true,
