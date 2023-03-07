@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/waterPipes/static/css/main.7acaea2f.css",
-    "main.js": "/waterPipes/static/js/main.b182ebc2.js",
+    "main.js": "/waterPipes/static/js/main.e4e881a5.js",
     "index.html": "/waterPipes/index.html",
     "main.7acaea2f.css.map": "/waterPipes/static/css/main.7acaea2f.css.map",
-    "main.b182ebc2.js.map": "/waterPipes/static/js/main.b182ebc2.js.map"
+    "main.e4e881a5.js.map": "/waterPipes/static/js/main.e4e881a5.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.b182ebc2.js"
+    "static/js/main.e4e881a5.js"
   ]
 }
