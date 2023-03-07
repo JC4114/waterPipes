@@ -53,13 +53,13 @@ export const App = () => {
               position: "relative",
               backgroundColor: 'green',
               width: '50px',
-              border: '1px dashed red',
+              outline: '1px dashed red',
               height: `${20 * pipe}px`,
             }}
           >
-            <div style={{color: "blue", position: "absolute", top: "-20px"}}>
-              {waterForEachPipe[index]}
-            </div>
+            <div style={{backgroundColor: "blue", position: "relative",width: '52px',height: `${20 * waterForEachPipe[index]}px`,bottom:`${20 * waterForEachPipe[index]}px`
+}}>{waterForEachPipe[index]}
+                          </div>
             <div style={{position: "absolute", top: "0"}}>
               {pipe}
             </div>
