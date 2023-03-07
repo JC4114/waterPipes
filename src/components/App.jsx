@@ -57,7 +57,7 @@ export const App = () => {
               height: `${20 * pipe}px`,
             }}
           >
-            <div style={{backgroundColor: "blue", position: "relative",width: '50px',height: `${20 * waterForEachPipe[index]}px`,bottom:`${20 * waterForEachPipe[index]}px`
+            <div className='water' style={{backgroundColor: "blue", position: "relative",width: '50px',height: `${20 * waterForEachPipe[index]}px`,bottom:`${20 * waterForEachPipe[index]}px`
 }}><div style={{position: "absolute",color:"yellow",right:"20px"}}>{waterForEachPipe[index]}</div>
                           </div>
             <div style={{position: "absolute", bottom:"-5px", left: "50%", transform: "translate(-50%, -50%)"}}>

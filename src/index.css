@@ -13,3 +13,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@keyframes water {
+  0% {
+    background-color: #76a1c6; /* светлый цвет */
+  }
+  50% {
+    background-color: #3e78d6; /* темный цвет */
+  }
+  100% {
+    background-color: #76a1c6; /* светлый цвет */
+  }
+}
+
+.water {
+  animation: water 3s infinite; /* продолжительность анимации 3 секунды, повторять бесконечно */
+}
